@@ -1,0 +1,13 @@
+
+.logoAlura{
+    display: flex;
+    margin: 12px 0 0 12px;
+    background-color: white;
+    border-radius: 2px;
+    border-color: black;
+}
+
+body{
+    background-image: url(img/fondo.jpg);
+}
+
