@@ -188,11 +188,14 @@ footer{
         font-size: 16px;
         text-align: center;
         line-height: 18px;
-    } 
+    }
+    .copiar{
+        margin-left: 0;
+    }
     
     footer{
-        margin: auto;
         position: static;
+        padding-left: 10vh;
     }
 }
 
@@ -202,9 +205,6 @@ footer{
         margin-left: 0;
     }
     .desencriptar {
-        margin-left: 0;
-    }
-    .copiar{
         margin-left: 0;
     }
 }
