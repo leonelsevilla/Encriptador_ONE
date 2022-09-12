@@ -1,13 +1,210 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header h1{
+    background: rgb(41, 39, 39);
+    font-family: 'Lucida Sans';
+    font-size: 36px;
+    padding-top: 15px;
+    color: rgb(52, 144, 230);
+    padding-bottom: 0.5em;
+}
 
 .logoAlura{
-    display: flex;
-    margin: 12px 0 0 12px;
-    background-color: white;
-    border-radius: 2px;
-    border-color: black;
+    background-color: rgb(52, 144, 230);
+    border-radius: 30px 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.tituloAlura{
+    text-indent: 1em;
+    padding-right: 0.25em;
 }
 
 body{
-    background-image: url(img/fondo.jpg);
+    background:linear-gradient(180deg, 
+    rgba(0,0,0,0.6), rgba(3, 116, 221, 0.466)), 
+    url(fondo.jpg);
+	height: 100vh;
+	background-position: center center;
 }
 
+
+
+main {
+    display: flex;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 30px; /*50px sin footer*/
+
+} 
+
+main section{
+    height: auto;
+}
+
+.input-texto {
+    margin-top: 90px;
+    margin-left: 1vh;
+    border-radius: 15px;
+    opacity: 90%;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 15px;
+    opacity: 90%;
+}
+
+.copiar {
+    background-color: rgb(52, 144, 230);
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    border-radius: 30px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(52, 144, 230);
+    color: black;
+    border-radius: 30px 10px;
+}
+
+.desencriptar {
+    background-color: rgb(52, 144, 230);
+    margin-left: 30px;
+    border-radius: 10px 30px ;
+}
+
+.informacion {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+/* asdasdasdasdasd */
+footer{
+    font-family: 'Lucida Sans';
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    /*Bajar footer*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width:480px){
+    *{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logoAlura{
+        margin: 0;
+    }
+    main{
+        margin-left: 0;
+    }
+    main section{
+        text-align: -webkit-center;
+    }
+    .tituloAlura{
+        width: auto;
+        font-size: 20px;
+        text-indent: 3px;
+        text-align: -webkit-center;
+    }
+    body{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .input-texto{
+        margin-top: 0; 
+        width: 43vh;
+        border: 0px;
+        resize:none;
+    }
+    .mensaje{
+        margin-left: 4vh; /*15%*/
+        padding-right: 0;
+        border-right: 0;
+        resize:none;
+    }
+
+    .botones{
+        justify-content: center;
+        margin-left: 1vh;
+        margin-top: 0;
+    }
+    section{
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 0;
+        border-radius: 15px;
+        margin-top: 2vh;
+    }
+    div {
+        flex-basis: 100%;
+        height: 10%;
+        margin-bottom: 0.5rem;
+    }
+    .encriptar{
+        font-size: smaller;
+    }
+    .desencriptar{
+        font-size: smaller;
+    }
+    .informacion{
+        margin-left: 4vh; /*asdjasdasbdhbas*/
+        padding: 0px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 18px;
+    } 
+    
+    footer{
+        margin: auto;
+        position: static;
+    }
+}
+
+@media screen and (max-width:325px){
+
+    .mensaje{
+        margin-left: 0;
+    }
+    .desencriptar {
+        margin-left: 0;
+    }
+    .copiar{
+        margin-left: 0;
+    }
+}
