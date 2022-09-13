@@ -114,7 +114,10 @@ footer{
     font-size: 20px;
     color: white;
     /*Bajar footer*/
+    /*
     position: absolute;
+    */
+    padding-top: 2px;
     left: 0;
     bottom: 0;
     width: 100%;
