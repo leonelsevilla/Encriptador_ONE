@@ -53,7 +53,7 @@ main section{
 }
 
 .input-texto {
-    margin-top: 90px;
+    margin-top: 40px;
     margin-left: 1vh;
     border-radius: 15px;
     opacity: 90%;
@@ -114,7 +114,9 @@ footer{
     font-size: 20px;
     color: white;
     /*Bajar footer*/
+    /*
     position: static;
+    */
     left: 0;
     bottom: 0;
     width: 100%;
