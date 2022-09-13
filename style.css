@@ -114,9 +114,7 @@ footer{
     font-size: 20px;
     color: white;
     /*Bajar footer*/
-    /*
-    position: static;
-    */
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -132,7 +130,7 @@ footer{
     title{
         display: none
     }
-    
+
     header{
         margin-left: 2vh;
     }
@@ -182,7 +180,7 @@ footer{
     }
     section{
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 1vh;
         padding: 0;
         border-radius: 15px;
         margin-top: 2vh;
