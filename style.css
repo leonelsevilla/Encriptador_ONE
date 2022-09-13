@@ -129,8 +129,18 @@ footer{
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    title{
+        display: none
+    }
+    
+    header{
+        margin-left: 2vh;
+    }
+
     .logoAlura{
         margin: 0;
+        width: 25%;
+        margin-top: 1vh;
     }
     main{
         margin-left: 0;
@@ -156,6 +166,7 @@ footer{
         width: 43vh;
         border: 0px;
         resize:none;
+        margin-left: 1.5vh;
     }
     .mensaje{
         margin-left: 4vh; /*15%*/
