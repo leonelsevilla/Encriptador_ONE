@@ -33,6 +33,9 @@ body{
     url(imagenes/fondo.jpg);
 	height: 100vh;
 	background-position: center center;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
 }
 
 
@@ -111,7 +114,7 @@ footer{
     font-size: 20px;
     color: white;
     /*Bajar footer*/
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
