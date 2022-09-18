@@ -159,16 +159,17 @@ footer{
         flex-wrap: wrap;
         justify-content: space-between;
         background-attachment: scroll;
+        width: 100vh;
     }
     .input-texto{
         margin-top: 0; 
         width: 43vh;
         border: 0px;
         resize:none;
-        margin-left: 1.5vh;
+        margin-left: 2vh;
     }
     .mensaje{
-        margin-left: 4vh; /*15%*/
+        margin-left: 3vh; /*15%*/
         padding-right: 0;
         border-right: 0;
         resize:none;
