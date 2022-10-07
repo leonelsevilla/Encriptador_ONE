@@ -24,10 +24,11 @@ function encriptar(stringEncriptada) {
 }
 
 
-function btnDesencriptar() {
+function btnDesencriptar(){
     const textoEncriptado = desencriptar(inputTexto.value)
+    mensaje.style.backgroundImage="none"
     mensaje.value = textoEncriptado
-    inputTexto.value = ""  
+    inputTexto.value = ""
 }
 
 function desencriptar(stringDesencriptada) {
